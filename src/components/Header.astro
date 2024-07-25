@@ -6,9 +6,8 @@ import SocialLinks from './shared/SocialLinks.astro';
 
 <header>
   <nav>
-    <h2><a href="/">{SITE_TITLE}</a></h2>
+    <h2><a href="/blog">{SITE_TITLE}</a></h2>
     <div class="internal-links">
-      <HeaderLink href="/">Home</HeaderLink>
       <HeaderLink href="/blog">Blog</HeaderLink>
       <HeaderLink href="/about">About</HeaderLink>
     </div>
@@ -21,7 +20,6 @@ import SocialLinks from './shared/SocialLinks.astro';
   header {
     margin: 0;
     padding: 0 1em;
-    background: white;
     box-shadow: 0 2px 8px rgba(var(--black), 5%);
   }
   h2 {
@@ -43,10 +41,11 @@ import SocialLinks from './shared/SocialLinks.astro';
     color: var(--black);
     border-bottom: 4px solid transparent;
     text-decoration: none;
+    font-size: 22px;
   }
   nav a.active {
     text-decoration: none;
-    border-bottom-color: var(--accent);
+    border-bottom-color: var(--brown);
   }
   .social-links,
   .social-links a {
