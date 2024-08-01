@@ -2,7 +2,7 @@
 title: 'Why to go on Erasmus exchange program?'
 description: 'My point of view on Erasmus exchange program. What fears and experiences I had while being there.'
 pubDate: 'Jul 25 2024'
-heroImage: '/img/blog-erasmus/kunda.webp'
+heroImage: '/img/blog-erasmus/leaving.webp'
 tags: ['travel', 'erasmus']
 ---
 
